@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/GroupMenuBar"
+            android:icon="@drawable/ic_group_black"
+            android:title="Group Info" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="LogOut" />
+
+</menu>

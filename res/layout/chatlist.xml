@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/thumbnail"
+            android:src="@drawable/gurup"
+            />
+
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:id="@+id/ZeeshanChatRoom"
+        android:textColor="@color/black"
+        android:layout_marginStart="22dp"
+        android:includeFontPadding="false"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/timebitch"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ZeeshanChatRoom"
+        android:layout_marginStart="22dp" />
+
+    <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/aakhiri"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/ZeeshanChatRoom" />
+
+
+</RelativeLayout>
